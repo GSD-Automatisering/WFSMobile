@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "nl.gsdapp.web-support.nl.WFSMobile"
+    versionCode="13"
+    version   = "1.1.0">
+
+
+
+  <author>GSD-Automatisering S. van de Laarschot</author>
+  <name>WFS Mobile LAN</name>
+
+  <description>
+	WFSMobile is applicatie waar u collega's / contactpersonen kunt raadplegen en direct kunt 
+	bellen of emailen met een druk op de knop
+  </description>
+
+  <preference name="stay-in-webview" value="true" />
+  <preference name="target-device" value="universal" />
+
+<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+  
+  <icon src="icon.png"/>
+  <icon src="icon.png" hover="true"/>
+  <gap:splash src="loadingscreen.png" />
+	
+  <access origin="*" />
+  <access origin="http://10.0.0.222:2019" browserOnly="true" />
+
+
+</widget>
